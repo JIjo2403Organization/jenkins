@@ -5,7 +5,7 @@ pipeline {
         stage('Read Text File') {
             steps {
                 bat 'echo Jenkins Pipeline Running'
-                bat 'type test.txt'
+                bat 'type text_file.txt'
             }
         }
     }
